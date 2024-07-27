@@ -30,7 +30,6 @@ public class Menu {
 
 
 
-
     public Menu(String name, double price, String description, String image) {
         this.name = name;
         this.price = price;

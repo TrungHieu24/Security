@@ -37,7 +37,7 @@ public class MenuServiceImpl implements MenuService {
 
         }
         else {
-            throw new RuntimeException("Food not find id" + theId);
+            throw new RuntimeException("Menu not find id" + theId);
         }
         return theMenu;
     }

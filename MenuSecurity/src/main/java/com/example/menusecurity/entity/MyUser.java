@@ -12,7 +12,7 @@ public class MyUser {
     private long id;
     private  String username;
     private  String password;
-    private String role;
+    private  String role;
 
     public long getId() {
         return id;

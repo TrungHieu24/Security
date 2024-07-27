@@ -21,7 +21,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/menu")
 public class MenuController {
-    private MenuService menuService;
+    private final MenuService menuService;
 
     public MenuController(MenuService theMenuService) {
         menuService = theMenuService;
